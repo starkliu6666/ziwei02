@@ -21,7 +21,8 @@
     "postversion": "git push && git push --tags",
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "chromatic": "npm run build-storybook && chromatic"
   },
   "files": [
     "lib/**/*"
