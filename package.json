@@ -22,7 +22,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "chromatic": "npm run build-storybook && chromatic"
+    "chromatic": "npm run build-storybook && chromatic",
     "build-storybook": "storybook build"
   },
   "files": [
